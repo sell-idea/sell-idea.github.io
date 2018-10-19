@@ -18,3 +18,13 @@ header{
 
 	display:inline-block;
 }
+.btn-rounded {
+
+    border-radius: 25px;
+		height: 35px;
+		width: 150px;
+    background-color: #ee5f3f;
+    color:white;
+    text-transform: uppercase;
+    font-weight:600;
+}
