@@ -4,68 +4,163 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Charmonman|Mali" rel="stylesheet">
+<!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/my.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+  <title>Pinf Project</title>
 </head>
 <body>
-<main>
+<header>
   <section>
-  <div class="container row mt-4 mb-4">
-  <div class="dropdown col-6">
-    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Расчёт стоимости проекта
-    </button>
-    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+  <nav class="navbar  fixed-top navbar-expand-lg navbar-light">
       <div class="container">
-        <div class="row">
-          <div class="col-auto">
-            <div class="calc">
-              <label for="domen">Домен</label>
-              <select class="form-control" id="domen" min="0" value="-">
-                <option value="-">Выберите доменное имя</option>
-              </select>
-
-              <label for="host">Хостинг</label>
-              <select class="form-control" id="host">
-                <option value="-">Выберите хостинг</option>
-              </select>
-
-              <label for="admin">Администрирование</label>
-              <select class="form-control" id="admin">
-              <option value="-">Выберите администрирование</option>
-              </select>
-
-              <label for="site">Продвижение сайта</label>
-              <select class="form-control" id="site">
-              <option value="-">Выберите продвижение</option>
-              </select>
-
-              <h4 class="mt-4">Приблизительная стоимость</h4>
-              <p class="price text-right">
-                <span>0</span>руб.
-              </p>
-            </div>
-          </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="dropdown col-6">
-      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Помочь проекту
+           <a class="navbar-brand" href="#">sell-idea  <img class="wow bounce" src="img/1934.png" width="30" height="30" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-        <iframe src="https://money.yandex.ru/quickpay/shop-widget?writer=seller&targets=%D0%9F%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83&targets-hint=&default-sum=100&button-text=14&hint=&successURL=&quickpay=shop&account=410015893581371" width="100%" height="222" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+      <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link"  href="#magazine">Магазин идей</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#news">Новости</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#discussion">Обсуждение</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#comand">Наша команда</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#review">Отзывы</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#help_project">Помочь проекту</a>
+          </li>
+
+        </ul>
+
       </div>
-    </div>
+
+    </nav>
+
+
   </div>
 </section>
+</header>
+<main>
+<div class="container">
+  <section id=magazine>
+    <div class="wrap">
+      <h2 class="display-4 mt-4 pt-4 wow slideInUp">Есть идея? Обменяй её на деньги!</h2>
+      <p>Присылайте идею, описав вкратце важные моменты и если идея нас заинтересует, обсудим условия нашего сотрудничества. В любом случае вы получите ответ!</p>
+</div>
+</div>
+
+<div class="container">
+  <div class="step text-center row  mt-4 mb-4">
+  <div class="col-3">
+    <img   src="img\1.png"></i>
+    <p class=" wow zoomIn">Шаг 1. Зарождение идеи</p>
+  </div>
+      <div class="col-3">
+        <img   src="img\2.png"></i>
+        <p class=" wow zoomIn">Шаг 2. Описание идеи</p>
+      </div>
+        <div class="col-3">
+          <img   src="img\3.png"></i>
+          <p class=" wow zoomIn">Шаг 3. Отправка идеи</p>
+        </div>
+          <div class="col-3">
+            <img   src="img\4.png"></i>
+            <p class=" wow zoomIn">Шаг 4. Получение прибыли</p>
+          </div>
+  </div>
+</div>
+
+
+
+
+
+    <div class="container">
+      <h3>Изложите суть Вашей идеи</h3>
+      <form>
+        <div class="row mt-4">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Ваше имя">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Email">
+          </div>
+          <div class="form-group col-12 mt-4">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Опишите Вашу идею"></textarea>
+          </div>
+
+        </div>
+      </form>
+          <!-- <h3>Во сколько Вы оцениваете свою идею?</h3> -->
+
+
+									<!-- <div class="slider-pips row">
+										<div class="slider-pips__item col-3">10-100$</div>
+										<div class="slider-pips__item col-3">100-500$</div>
+										<div class="slider-pips__item col-3">500-2000$</div>
+										<div class="slider-pips__item col-3">2000-10000$</div>
+
+									</div>
+                <input type="range" class="custom-range" id="customRange1" min="1" max="5"> -->
+
+
+
+
+
+                  <button type="submit"  class="btn-rounded">Отправить</button>
+  </section>
+
+  <section id=news>
+<h3>Новости</h3>
+  </section>
+
+  <section id=discussion>
+<h3>Обсуждения</h3>
+  </section>
+
+  <section id=comand>
+<h3>Наша команда</h3>
+  </section>
+
+  <section id=review>
+<h3>Отзывы</h3>
+  </section>
+
+  <section id=help_project>
+<h3>Помочь проекту</h3>
+  </section>
+
+<section class="contact form">
+    <div class="container">
+
+    </div>
+</section>
 </main>
-  <script src=" https://yastatic.net/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <script src="js/my.js"></script>
+<footer class="text-center">
+sell-idea.com © Все права защищены
+</footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script>
+   new WOW().init();
+  </script>
+  <script type="js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </body>
 </html>
