@@ -4,63 +4,68 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-<!-- Bootstrap CSS -->
+  <title>Document</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
-  <title>Pinf Project</title>
+	<link rel="stylesheet" href="css/my.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
-<header>
-    <nav class="navbar  navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">
-  <img src="img/1934.png" width="30" height="30" alt="">
-</a>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Главная</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">О проекте</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Контакты</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Поиск">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Найти</button>
-      </form>
-    </div>
-  </nav>
-</header>
 <main>
   <section>
-    <div class="container">
-      <h3>Pinf project</h3>
-    </div>
-  </section>
-<section class="contact form">
-    <div class="container">
+  <div class="container row mt-4 mb-4">
+  <div class="dropdown col-6">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Расчёт стоимости проекта
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+      <div class="container">
+        <div class="row">
+          <div class="col-auto">
+            <div class="calc">
+              <label for="domen">Домен</label>
+              <select class="form-control" id="domen" min="0" value="-">
+                <option value="-">Выберите доменное имя</option>
+              </select>
 
+              <label for="host">Хостинг</label>
+              <select class="form-control" id="host">
+                <option value="-">Выберите хостинг</option>
+              </select>
+
+              <label for="admin">Администрирование</label>
+              <select class="form-control" id="admin">
+              <option value="-">Выберите администрирование</option>
+              </select>
+
+              <label for="site">Продвижение сайта</label>
+              <select class="form-control" id="site">
+              <option value="-">Выберите продвижение</option>
+              </select>
+
+              <h4 class="mt-4">Приблизительная стоимость</h4>
+              <p class="price text-right">
+                <span>0</span>руб.
+              </p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <div class="dropdown col-6">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Помочь проекту
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+        <iframe src="https://money.yandex.ru/quickpay/shop-widget?writer=seller&targets=%D0%9F%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83&targets-hint=&default-sum=100&button-text=14&hint=&successURL=&quickpay=shop&account=410015893581371" width="100%" height="222" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+      </div>
+    </div>
+  </div>
 </section>
 </main>
-<footer>
-
-</footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-  <script>
-   new WOW().init();
-  </script>
-  <script type="js/main.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+  <script src=" https://yastatic.net/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="js/my.js"></script>
 </body>
 </html>
