@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <link href="https://fonts.googleapis.com/css?family=Charmonman|Mali" rel="stylesheet">
-  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -403,7 +402,7 @@
         <div class="col-md-12">
           <div class="templatemo_maps">
             <div class="fluid-wrapper">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1334.5303046301547!2d37.80770427191295!3d48.01253890515658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e090411d7ac7df%3A0x58108193e1be5ce0!2z0JPQntCjINCS0J_QniAi0JTQvtC90JDQo9C40JPQoSDQv9GA0Lgg0JPQu9Cw0LLQtSDQlNCd0KAi!5e0!3m2!1sru!2sua!4v1540895207294" ></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1334.5303046301547!2d37.80770427191295!3d48.01253890515658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e090411d7ac7df%3A0x58108193e1be5ce0!2z0JPQntCjINCS0J_QniAi0JTQvtC90JDQo9C40JPQoSDQv9GA0Lgg0JPQu9Cw0LLQtSDQlNCd0KAi!5e0!3m2!1sru!2sua!4v1540895207294" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -443,6 +442,57 @@
         </div>
       </div>
     </div>
+</section>
+<section>
+  <div class="container row mt-4 mb-4">
+  <div class="dropdown col-6">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Расчёт стоимости проекта
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+      <div class="container">
+        <div class="row">
+          <div class="col-auto">
+            <div class="calc">
+              <label for="domen">Домен</label>
+              <select class="form-control" id="domen" min="0" value="-">
+                <option value="-">Выберите доменное имя</option>
+              </select>
+
+              <label for="host">Хостинг</label>
+              <select class="form-control" id="host">
+                <option value="-">Выберите хостинг</option>
+              </select>
+
+              <label for="admin">Администрирование</label>
+              <select class="form-control" id="admin">
+              <option value="-">Выберите администрирование</option>
+              </select>
+
+              <label for="site">Продвижение сайта</label>
+              <select class="form-control" id="site">
+              <option value="-">Выберите продвижение</option>
+              </select>
+
+              <h4 class="mt-4">Приблизительная стоимость</h4>
+              <p class="price text-right">
+                <span>0</span>руб.
+              </p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dropdown col-6">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Помочь проекту
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+        <iframe src="https://money.yandex.ru/quickpay/shop-widget?writer=seller&targets=%D0%9F%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83&targets-hint=&default-sum=100&button-text=14&hint=&successURL=&quickpay=shop&account=410015893581371" width="100%" height="222" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+      </div>
+    </div>
+  </div>
 </section>
 </main>
 <footer class="text-center">
