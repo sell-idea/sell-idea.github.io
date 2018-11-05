@@ -8,14 +8,15 @@
   font-size: 40px;
   font-weight: 600;
 }
-=======
+
+
 /* * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 } */
 .mag{
-  background-color: rgba(205, 92, 92,0.8);
+   background-color: #f1f4fa;
 }
 .navbar-brand {
   text-align: center;
