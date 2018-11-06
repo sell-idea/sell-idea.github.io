@@ -8,7 +8,10 @@
   font-size: 40px;
   font-weight: 600;
 }
+.navbar  {
+  background-color: #033b45;
 
+}
 
 /* * {
 	margin: 0;
@@ -22,6 +25,20 @@
   text-align: center;
   /* font-family: 'Mali', cursive; */
   font-family: 'Charmonman', cursive;
+  font-weight: 600;
+  color :#abdfab;
+ }
+ .navbar-brand:hover{
+    color:rgba(255,255,255,.8);
+ }
+ .nav-link{
+   color:rgba(255,255,255,.8);
+ }
+ .nav-link:hover{
+     color :#abdfab;
+ }
+ .mag{
+   background-color: #d5d5d5;
  }
 
 h3,h2{
