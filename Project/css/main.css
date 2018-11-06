@@ -47,10 +47,7 @@ h3,h2{
 header{
   background-color: rgba(0, 191, 255,0.1);
 }
-.step{
 
-	display:inline-block;
-}
 .btn-rounded {
 
     border-radius: 25px;
