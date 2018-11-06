@@ -47,7 +47,19 @@ h3,h2{
 header{
   background-color: rgba(0, 191, 255,0.1);
 }
-
+hr{
+  background-color:#ff4274;
+  width: 60px;
+  height: 2px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.bank{
+  background-color: #d5d5d5;
+}
+.step{
+  background-color: #abdfab;
+}
 .btn-rounded {
 
     border-radius: 25px;
@@ -57,6 +69,9 @@ header{
     color:white;
     text-transform: uppercase;
     font-weight:600;
+}
+footer{
+  background-color:#437432;
 }
 
 /* Contact Form */
