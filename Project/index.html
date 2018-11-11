@@ -65,7 +65,7 @@
       </div>
       <div class="col-7 col-12 col-md-6 mt-4 pt-4">
       <p>У всех людей есть генальные идеи, но мало кто знает как их реализовать. Мы поможем Вам в этом нелегком деле. Присылайте свою идею, описав вкратце важные моменты и если идея нас заинтересует, обсудим условия нашего сотрудничества. В любом случае вы получите ответ!</p>
-      <button>Submit</button>
+      <a href="#bank"><button>Отправить идею</button></a>
   </div>
 </div>
 </div>
@@ -76,7 +76,6 @@
 <div class="container">
   <h2 class="display-4 pb-4 pt-4">Четыре шага к успеху</h2>
   <hr>
-
   <div class="text-center row  mt-4 mb-4">
   <div class="col-12 col-md-6 col-lg-3">
         <img   src="img\1.png"></i>
@@ -204,7 +203,6 @@
 <section id=bank>
   <div class="idea mb-4 pb-4">
     <div class="container">
-
       <h3 class="display-4 pt-4 mb-4 ">Отправить идею</h3>
       <h3 class="pb-4">Изложите суть Вашей идеи</h3>
       <form>
@@ -219,215 +217,21 @@
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Опишите Вашу идею"></textarea>
           </div>
             </div>
-
-
       </form>
-      <h3>Во сколько Вы оцениваете свою идею?</h3>
-
-
-       <form onsubmit="return false" oninput="level.value = flevel.valueAsNumber">
-
-<input name="flevel" class="custom-range" id="flying" type="range" min="20" max="10000" value="20" step="10">
-<output for="flying" name="level">20 </output><span>руб.</span>
-</form>
-
+        <h3>Во сколько Вы оцениваете свою идею?</h3>
+         <form onsubmit="return false" oninput="level.value = flevel.valueAsNumber">
+        <input name="flevel" class="custom-range" id="flying" type="range" min="20" max="10000" value="20" step="10">
+        <output for="flying" name="level">20 </output><span>руб.</span>
+      </form>
                   <button  type="submit"  class="btn-rounded">Отправить</button>
                       </div>
-
-  </section>
-
-
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-<div class="modal-dialog" role="document">
-<div class="modal-content">
-  <div class="modal-header">
-    <h5 class="modal-title" id="exampleModalLabel">Уважаемый посетитель, Вы можете повлиять на судьбу этого проекта ответив всего на несколько вопросов</h5>
-    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </button>
-  </div>
-  <div class="modal-body">
-    <form>
-      <fieldset class="form-group">
-        <div class="row">
-          <legend class="col-form-label col-sm-6 pt-0">Считаете ли Вы этот проект полезеным для Вас?</legend>
-          <div class="col-sm-10">
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-              <label class="form-check-label" for="gridRadios1">
-                Да
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-              <label class="form-check-label" for="gridRadios2">
-                Нет
-              </label>
-            </div>
-          </div>
-        </div>
-      </fieldset>
-    </form>
-    <form>
-    <fieldset class="form-group">
-              <div class="row">
-                <legend class="col-form-label col-sm-6 pt-0">Вы бы рекомендовали данный проект другим людям?</legend>
-                <div class="col-sm-10">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                    <label class="form-check-label" for="gridRadios1">
-                      Да
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                    <label class="form-check-label" for="gridRadios2">
-                    Скорее да
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                    <label class="form-check-label" for="gridRadios2">
-                      Скорее нет
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                    <label class="form-check-label" for="gridRadios2">
-                      Нет
-                    </label>
-                  </div>
-                </div>
-              </div>
-            </form>
-          <form>
-
-              <div class="row">
-                <legend class="col-form-label col-sm-6 pt-0">Какоe Ваше общее впечатление от данного проекта?</legend>
-                <div class="col-sm-10">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option3" checked>
-                    <label class="form-check-label" for="gridRadios3">
-                        Превосходное
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option3" checked>
-                    <label class="form-check-label" for="gridRadios3">
-                      Хорошое
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option3" checked>
-                    <label class="form-check-label" for="gridRadios3">
-                      Скорее хорошое
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option4">
-                    <label class="form-check-label" for="gridRadios4">
-                      Среднее
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option3" checked>
-                    <label class="form-check-label" for="gridRadios3">
-                      Скорее плохое
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option3" checked>
-                    <label class="form-check-label" for="gridRadios3">
-                      Очень плохое
-                    </label>
-                  </div>
-                </div>
-              </div>
-
-
-    </fieldset>
-    </form>
-    <form>
-    <fieldset class="form-group">
-              <div class="row">
-                <legend class="col-form-label col-sm-6 pt-0">Вы готовы принять участие в этом проекте?</legend>
-                <div class="col-sm-10">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option3" checked>
-                    <label class="form-check-label" for="gridRadios3">
-                      Да
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option4">
-                    <label class="form-check-label" for="gridRadios4">
-                      Нет
-                    </label>
-                  </div>
-                </div>
-              </div>
-            </form>
-            <form>
-              <div class="row">
-                <legend class="col-form-label col-sm-6 pt-0">Вы готовы материально поддержать этот проект?</legend>
-                <div class="col-sm-10">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                    <label class="form-check-label" for="gridRadios1">
-                      Да
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                    <label class="form-check-label" for="gridRadios2">
-                      Нет
-                    </label>
-                  </div>
-                </div>
-              </div>
-            </fieldset>
-          </form>
-          <form>
-
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Какие изменения могли бы, по Вашему мнению,  улучшить данный проект?</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Что могло бы повысить Ваш интерес к данному проекту?</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Хотите что-то добавить либо предложить?</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-
-          </form>
-
-
-
-  </div>
-  <div class="modal-footer">
-
-    <button type="button" class="btn btn-primary">Голосую!</button>
-    <button type="button" class="btn btn-secondary" data-dismiss="modal">Я передумал голосовать</button>
-  </div>
-</div>
-</div>
-</div>
-  <!-- ModalDisk -->
   </section>
   <section id=review class="">
     <div class="review">
-  <h3 class="display-4 mt-4 mb-4 pb-4">Отзывы</h3>
-
-  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
+      <h3 class="display-4 mt-4 mb-4 pb-4">Отзывы</h3>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+      <div class="carousel-item active">
       <blockquote>
                                 <div class="row">
                                     <div class="col-sm-3 text-center">
@@ -472,9 +276,9 @@
   <section id=team class="team">
         <div class="team">
     <h3 class="display-4 mb-4 pb-4">Наша команда</h3>
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-6 col-lg-3">
+    <div class="container text-center">
+      <div class="row no-gutters">
+        <div class="col-sm-12 col-md-6 col-lg-3">
           <!--Effect: Open Down -->
             <div class="pic pic-3d">
               <img src="pic/Canis_lupus_laying.jpg" class="pic-image" alt="Pic"/>
@@ -488,7 +292,7 @@
              </div>
         </div>
 
-        <div class="col-12 col-md-6 col-lg-3">
+        <div class="col-sm-12 col-md-6 col-lg-3">
           <!--Effect: Open Down -->
             <div class="pic pic-3d">
               <img src="pic/lisa_2.jpg" class="pic-image" alt="Pic"/>
@@ -502,7 +306,7 @@
             </div>
         </div>
 
-        <div class="col-12 col-md-6 col-lg-3">
+        <div class="col-sm-12 col-md-6 col-lg-3">
           <!--Effect: Open Down -->
             <div class="pic pic-3d">
               <img src="pic/picture_of_the_day_chipmunk_berry.jpg" class="pic-image img-responsive" alt="Pic"/>
@@ -516,7 +320,7 @@
             </div>
         </div>
 
-        <div class="col-12 col-md-6 col-lg-3">
+        <div class="col-sm-12 col-md-6 col-lg-3">
                 <!--Effect: Open Down -->
                 <div class="pic pic-3d">
               <img src="pic/bobr4.jpg" class="pic-image" alt="Pic"/>
@@ -534,40 +338,40 @@
     </div>
       </div>
   </section>
-
-
-
-
 <section id=help_project>
   <div class="help">
-<h3 class="mt-4 mb-4 pb-4">Помочь проекту</h3>
-<div class="container text-center row mt-4 mb-4">
-  <div class="col-4">
-    <div class="container">
-    <img src="img\calculation.png">
+    <h3 class="mt-4 mb-4 pb-4">Помочь проекту</h3>
+    <div class="container mt-4 mb-4">
+      <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+        <img src="img\calculation.png">
+        <div class="col-12">
+        <button type="button" data-toggle="modal" data-target="#exampleModal">
+          Расчёт стоимости проекта
+        </button>
+      </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+        <img src="img\donation.png">
+        <div class="col-12">
+        <button type="button" data-toggle="modal" data-target="#exampleModal2">
+          Помочь проекту
+        </button>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+        <img src="img\interview.png">
+        <div class="col-12">
+          <button type="button" data-toggle="modal" data-target="#exampleModal3">
+          Пройти опрос
+          </button>
+          </div>
+      </div>
     </div>
-    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
-  Расчёт стоимости проекта
-  </button>
-  </div>
-  <div class="col-4">
-    <div class="container">
-    <img src="img\donation.png">
     </div>
-  <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal2">
-  Помочь проекту
-  </button>
   </div>
-  <div class="col-4">
-    <div class="container">
-    <img src="img\interview.png">
-    </div>
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-    Пройти опрос
-    </button>
-  </div>
-</div>
-</div>
 </section>
 
 <section class="contact form">
@@ -593,7 +397,7 @@
             <div class="form-group">
               <input name="subject" type="text" class="form-control" id="subject" placeholder="Тема вопроса" maxlength="40">
             </div>
-            <div><button type="button" class="btn btn-primary">Отправить сообщение</button></div>
+            <div><button type="button">Отправить сообщение</button></div>
           </form>
         </div>
         <div class="col-md-6">
@@ -606,7 +410,7 @@
             <ul>
               <li><i class="fas fa-map-marked-alt"></i>г.Донецк, ул. Челюскинцев, 163а</li>
               <li><i class="fas fa-mobile-alt"></i>937-99-92</li>
-              <li><i class="fa fa-globe"></i><a rel="nofollow" href="#">www.example.com</a></li>
+              <li><i class="fa fa-globe"></i><a href="#">www.example.com</a></li>
               <li><i class="fa fa-envelope"></i>sell-idea@gmail.com</li>
             </ul>
           </div>
@@ -675,12 +479,13 @@ sell-idea.com © Все права защищены
           </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+        <button type="button" data-dismiss="modal">Закрыть</button>
       </div>
     </div>
   </div>
 </div>
 <!-- Modal -->
+
 <!-- Modal2 -->
 <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -695,13 +500,192 @@ sell-idea.com © Все права защищены
       <iframe src="https://money.yandex.ru/quickpay/shop-widget?writer=seller&targets=%D0%9F%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83&targets-hint=&default-sum=100&button-text=14&hint=&successURL=&quickpay=shop&account=410015893581371" width="100%" height="222" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+        <button type="button" data-dismiss="modal">Закрыть</button>
       </div>
     </div>
   </div>
 </div>
 <!-- Modal2 -->
 
+<!-- Modal 3-->
+<div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+  <div class="modal-header">
+    <h5 class="modal-title" id="exampleModalLabel">Уважаемый посетитель, Вы можете повлиять на судьбу этого проекта ответив всего на несколько вопросов</h5>
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <form>
+      <fieldset class="form-group">
+        <div class="row">
+          <legend class="col-form-label col-sm-6 pt-0">Считаете ли Вы этот проект полезеным для Вас?</legend>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+              <label class="form-check-label" for="gridRadios1">
+                Да
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+              <label class="form-check-label" for="gridRadios2">
+                Нет
+              </label>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+    <form>
+    <fieldset class="form-group">
+              <div class="row">
+                <legend class="col-form-label col-sm-6 pt-0">Вы бы рекомендовали данный проект другим людям?</legend>
+                <div class="col-sm-10">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                      Да
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                    Скорее да
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                      Скорее нет
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                      Нет
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </form>
+          <form>
+              <div class="row">
+                <legend class="col-form-label col-sm-6 pt-0">Какоe Ваше общее впечатление от данного проекта?</legend>
+                <div class="col-sm-10">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option3" checked>
+                    <label class="form-check-label" for="gridRadios3">
+                        Превосходное
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option3" checked>
+                    <label class="form-check-label" for="gridRadios3">
+                      Хорошое
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option3" checked>
+                    <label class="form-check-label" for="gridRadios3">
+                      Скорее хорошое
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option4">
+                    <label class="form-check-label" for="gridRadios4">
+                      Среднее
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option3" checked>
+                    <label class="form-check-label" for="gridRadios3">
+                      Скорее плохое
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option3" checked>
+                    <label class="form-check-label" for="gridRadios3">
+                      Очень плохое
+                    </label>
+                  </div>
+                </div>
+              </div>
+    </fieldset>
+    </form>
+    <form>
+    <fieldset class="form-group">
+              <div class="row">
+                <legend class="col-form-label col-sm-6 pt-0">Вы готовы принять участие в этом проекте?</legend>
+                <div class="col-sm-10">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option3" checked>
+                    <label class="form-check-label" for="gridRadios3">
+                      Да
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option4">
+                    <label class="form-check-label" for="gridRadios4">
+                      Нет
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <form>
+              <div class="row">
+                <legend class="col-form-label col-sm-6 pt-0">Вы готовы материально поддержать этот проект?</legend>
+                <div class="col-sm-10">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                      Да
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                      Нет
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+          <form>
+
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Какие изменения могли бы, по Вашему мнению,  улучшить данный проект?</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Что могло бы повысить Ваш интерес к данному проекту?</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Хотите что-то добавить либо предложить?</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+          </form>
+
+
+
+  </div>
+  <div class="modal-footer">
+
+    <button type="button" >Голосую!</button>
+    <button type="button" data-dismiss="modal">Я передумал голосовать</button>
+  </div>
+</div>
+</div>
+</div>
+  <!-- Modal 3-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
   <script>
    new WOW().init();
