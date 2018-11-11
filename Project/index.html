@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Black+And+White+Picture" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <link href="https://fonts.googleapis.com/css?family=Charmonman|Mali" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -39,9 +40,6 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#review">Отзывы</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#discussion">Обсуждение</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#team">Наша команда</a>
@@ -101,8 +99,9 @@
 </div>
 </section>
 <div class="container text-center">
-  <h1>Есть отличная идея?</h3>
-  <h3>У вас есть два пути:</h3>
+  <div class="motiv">
+  <h3 class="display-4 pb-4">Есть отличная идея?</h3>
+  <h3 class="pb-4">У вас есть два пути:</h3>
   <div class="row">
     <div class="motivate col-6">
       <h1>Без нас:</h1>
@@ -158,6 +157,7 @@
     </div>
   </div>
 </div>
+</div>
 <section>
     <div class="bank pt-4 pb-4">
 <div class="container">
@@ -201,12 +201,12 @@
 </div>
 </section>
 
-<section>
+<section id=bank>
   <div class="idea mb-4 pb-4">
     <div class="container">
 
       <h3 class="display-4 pt-4 mb-4 ">Отправить идею</h3>
-      <h3>Изложите суть Вашей идеи</h3>
+      <h3 class="pb-4">Изложите суть Вашей идеи</h3>
       <form>
         <div class="row mt-4">
           <div class="col">
@@ -218,18 +218,10 @@
           <div class="form-group col-12 mt-4">
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Опишите Вашу идею"></textarea>
           </div>
+            </div>
 
-        </div>
+
       </form>
-          <!-- <h3>Во сколько Вы оцениваете свою идею?</h3> -->
-									<!-- <div class="slider-pips row">
-										<div class="slider-pips__item col-3">10-100$</div>
-										<div class="slider-pips__item col-3">100-500$</div>
-										<div class="slider-pips__item col-3">500-2000$</div>
-										<div class="slider-pips__item col-3">2000-10000$</div>
-
-									</div>
-                <input type="range" class="custom-range" id="customRange1" min="1" max="5"> -->
       <h3>Во сколько Вы оцениваете свою идею?</h3>
 
 
@@ -239,7 +231,9 @@
 <output for="flying" name="level">20 </output><span>руб.</span>
 </form>
 
-                  <button type="submit"  class="btn-rounded">Отправить</button>
+                  <button  type="submit"  class="btn-rounded">Отправить</button>
+                      </div>
+
   </section>
 
 
@@ -428,9 +422,9 @@
   <!-- ModalDisk -->
   </section>
 
-  <section id=team class="mt-4 pt-4 team">
-        <div class="">
-    <h3>Наша команда</h3>
+  <section id=team class="team">
+        <div class="team">
+    <h3 class="display-4 mb-4 pb-4">Наша команда</h3>
     <div class="container">
       <div class="row">
         <div class="col-12  col-md-3">
@@ -495,7 +489,8 @@
   </section>
 
 
-  <section id=review class="mt-4 pt-4">
+  <section id=review class="">
+    <div class="review">
 <h3 class="mt-4 pt-4">Отзывы</h3>
 
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
@@ -540,11 +535,12 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-
+</div>
   </section>
 
 <section id=help_project>
-<h3>Помочь проекту</h3>
+  <div class="help">
+<h3 class="mt-4 mb-4 pb-4">Помочь проекту</h3>
 <div class="container text-center row mt-4 mb-4">
   <div class="col-4">
     <div class="container">
@@ -571,6 +567,7 @@
     </button>
   </div>
 </div>
+</div>
 </section>
 
 <section class="contact form">
@@ -578,7 +575,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="secHeader">
-            <h1 class="text-center">Свяжитесь с нами</h1>
+            <h1 class="text-center mb-4 pb-4">Свяжитесь с нами</h1>
           </div>
         </div>
       </div>

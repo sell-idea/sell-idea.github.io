@@ -72,7 +72,11 @@ button:hover {
 	padding: 0;
 	box-sizing: border-box;
 } */
+p{
+  font-family: 'Black And White Picture', sans-serif;
+}
 .mag{
+
    background-color: #f1f4fa;
 }
 .navbar-brand {
@@ -109,10 +113,35 @@ hr{
   margin-top: 30px;
 }
 .bank{
-  background-color: #d5d5d5;
+    background: linear-gradient(0deg,  #d5d5d5,#D2FFD2);
+
 }
 .step{
-  background-color: #abdfab;
+    background: linear-gradient(0deg, 	#D2FFD2,#D2FFD2);
+
+}
+.team{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: linear-gradient(0deg, #D2FFD2, #d5d5d5);
+}
+.motiv{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.review{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: linear-gradient(0deg, #D2FFD2, #d5d5d5);
+}
+.help{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: linear-gradient(0deg, #D2FFD2, #d5d5d5);
+}
+.contact{
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .btn-rounded {
 
@@ -124,9 +153,10 @@ hr{
     text-transform: uppercase;
     font-weight:600;
 }
-/* .idea{
-  background-color: #d5d5d5;
-} */
+.idea{
+  padding-top: 50px;
+}
+
 footer{
   background-color:#437432;
 }
@@ -179,9 +209,7 @@ background-color:#3f9384;
 /* .discussion{
     margin-top: 80px;
 } */
-.team{
-    margin-top: 60px;
-}
+
 --------------------------------rfhectkm---------
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400italic,400,700,300&subset=latin,cyrillic);
 
