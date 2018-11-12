@@ -52,18 +52,12 @@ button:after {
 button:hover:before, button:hover:after {
   width:calc(100% + 12px);
   height:calc(100% + 12px);
-  border-color:#fff
+  border-color: black;
 }
 button:hover {
   color:#353535;
   background-color:#fff;
-  border-color:#fff;
-}
-.panel {
-  max-width:960px;
-  text-align:center;
-  position:relative;
-  margin:auto;
+  border-color:black;
 }
 /* Button */
 
@@ -114,7 +108,8 @@ hr{
 }
 .bank{
     background: linear-gradient(0deg,  #d5d5d5,#D2FFD2);
-
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .step{
     background: linear-gradient(0deg, 	#D2FFD2,#D2FFD2);
