@@ -113,11 +113,13 @@
 	box-sizing: border-box;
 } */
 p{
-  font-family: 'Black And White Picture', sans-serif;
+  /* font-family: 'Black And White Picture', sans-serif; */
+  font-family: 'Lato', sans-serif;
 }
 .mag{
 
-   background-color: #f1f4fa;
+  background-color:#eae8e5;
+
 }
 .navbar-brand {
   text-align: center;
@@ -135,9 +137,7 @@ p{
  .nav-link:hover{
      color :#abdfab;
  }
- .mag{
-   background-color: #d5d5d5;
- }
+
 
 h3,h2{
 	text-align: center;
@@ -158,13 +158,17 @@ hr{
     padding-bottom: 60px;
 }
 .step{
-    background: linear-gradient(0deg, 	#D2FFD2,#D2FFD2);
+    background: linear-gradient(0deg, 	#e87888,#eec48b);
 
 }
+/* .text p{
+  color:#ff4075;
+
+} */
 .team{
     padding-top: 60px;
     padding-bottom: 60px;
-    background: linear-gradient(0deg, #D2FFD2, #d5d5d5);
+    background-color:  #eec48b;
 }
 .motiv{
   padding-top: 60px;
@@ -183,6 +187,7 @@ hr{
 .contact{
   padding-top: 60px;
   padding-bottom: 60px;
+  background: linear-gradient(0deg, 	#e87888,#eec48b);
 }
 .btn-rounded {
 
