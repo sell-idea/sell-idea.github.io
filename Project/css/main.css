@@ -13,51 +13,97 @@
 
 }
 /* Button */
-button {
-  color:#454545;
+.button,
+.button::before,
+.button::after,
+.button span,
+.button span::before,
+.button span::after
+{
+  transition: all ease .5s;
   background:transparent;
-  border-width:2px;
-  border-style: solid;
-  border-color: #454545;
-  position:relative;
-  margin:1em;
-  display:inline-block;
-  padding:0.5em 1em;
-  transition:all 0.3s ease-in-out;
-  text-align:center;
-  font-family:comfortaa;
-  font-weight:bold;
+
 }
-button:before, button:after {
-  content:'';
-  display:block;
-  position:absolute;
-  border-color:#454545;
-  box-sizing:border-box;
-  border-style:solid;
-  width:1em;
-  height:1em;
-  transition:all 0.3s ease-in-out;
+
+.button{
+  width: auto;
+  height: 45px;
+  margin: 5px;
+  padding: 5px;
+  position: relative;
+  display: inline-block;
+  border: solid 1px;
+  text-transform: uppercase;
+  cursor: pointer;
 }
-button:before {
-  top:-6px;left:-6px;
-  border-width:2px 0 0 2px;
-  z-index:5;
+
+.button:hover
+{
+  box-shadow: 0 0 5em 0.5em rgba(124, 71, 137,0.5);
 }
-button:after {
-  bottom:-6px;
-  right:-6px;
-  border-width:0 2px 2px 0;
+
+.button span
+{
+  display: inline-block;
+  width: 100%;
 }
-button:hover:before, button:hover:after {
-  width:calc(100% + 12px);
-  height:calc(100% + 12px);
-  border-color: black;
+
+.button:hover span
+{
+  background-color: transparent;
+  color: #fff;
 }
-button:hover {
-  color:#353535;
-  background-color:#fff;
-  border-color:black;
+
+.button::before,
+.button::after,
+.button span::before,
+.button span::after
+{
+  content: '';
+  position: absolute;
+  border: 1px;
+  background:transparent;
+}
+
+.button::before,
+.button span::before
+{
+  border-style: solid none;
+}
+
+.button::before,
+.button span::after{
+  left: 0;
+  top: -0.4em;
+  width: 100%;
+  height: calc(100% + 0.8em);
+}
+
+.button::after,
+.button span::after
+{
+  border-style: none solid;
+}
+
+.button::after,
+.button span::before
+{
+  top: 0;
+  left: -0.4em;
+  height: 100%;
+  width: calc(100% + 0.8em);
+}
+
+.button:hover::after,
+.button:hover span::after
+{
+  transform: scaleY(0);
+}
+
+.button:hover::before,
+.button:hover span::before
+{
+  transform: scaleX(0);
 }
 /* Button */
 
