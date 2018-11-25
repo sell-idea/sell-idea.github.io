@@ -4,7 +4,7 @@ box-sizing: content-box;
 }
 .discussion
 {
-	background-color: #f1f4fa;
+	background-color: #D2FFD2;
 }
 
 .pic
@@ -43,7 +43,7 @@ transform-style:preserve-3d
 position:absolute;
 width:100%;
 height:100%;
-background: rgba(54, 79, 119, 0.75);
+background: #a1c5a1e0;
 padding:10px;
 text-align:center;
 -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=($opacity * 100))";
@@ -125,22 +125,10 @@ left:0}
 -ms-transform:rotateX(0);
 transform:rotateX(0)}
 
-
-
-
-
-.button {
-    border: 2px solid #fff;
-    padding: 10px;
-    width: 54%;
-    cursor: pointer;
-    text-align: center;
-  
-}
 .button a {
     display: block;
-    color: #fff;
-    font-family: 'Lato', sans-serif;
+    color: black;
+
     font-size: 18px;
-    font-weight: 700;
+
 }
