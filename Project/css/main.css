@@ -1,7 +1,7 @@
 
 .calc{
   margin-top: 20px;
-  border: 7px solid #aeaeae;
+  /* border: 7px solid #aeaeae; */
   padding: 20px;
 }
 .price span{
@@ -51,7 +51,7 @@
 .button:hover span
 {
   background-color: transparent;
-  color: #fff;
+  color: black;
 }
 
 .button::before,
