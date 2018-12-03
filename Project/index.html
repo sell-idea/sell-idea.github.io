@@ -413,22 +413,24 @@
       </div>
       <div class="row mt-4">
         <div class="col-md-5">
-          <form role="form">
+
+          <form enctype="multipart/form-data" method="post" id="form">
             <div class="form-group">
-              <input name="fullname" type="text" class="form-control" id="fullname" placeholder="Ваше имя" maxlength="30">
+              <input name="fullname" type="text" class="form-control" id="name" placeholder="Ваше имя" maxlength="30">
             </div>
             <div class="form-group">
-              <input name="email" type="text" class="form-control" id="email" placeholder="Ваш Email" maxlength="30">
+              <input name="email" type="text" class="form-control" id="email" placeholder="example@gmail.com" maxlength="30">
             </div>
             <div class="form-group">
-              <input name="subject" type="text" class="form-control" id="subject" placeholder="Тема вопроса" maxlength="40">
+              <input name="number" type="text" class="form-control" id="subject" placeholder="Телефон" maxlength="40">
             </div>
-            <div class="text-center mt-4 pt-4"><button class="button" type="button">Отправить сообщение</button></div>
+            <div class="text-center mt-4 pt-4"><button class="button" type="submit">Отправить сообщение</button></div>
           </form>
+
         </div>
         <div class="col-md-7">
           <div class="textarea">
-            <textarea name="message" rows="10" class="form-control" id="message"></textarea>
+            <textarea name="message" placeholder="Текст сообщения" rows="10" class="form-control" id="message"></textarea>
           </div>
         </div>
       </div>
@@ -725,5 +727,32 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="js/main.js"></script>
+<!-- phpmailer -->
+<script src=”//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js”></script>
+<script>
+$(function(){
+ ‘use strict’;
+$(‘#form’).on(‘submit’, function(e){
+ e.preventDefault();
+ var fd = new FormData( this );
+ $.ajax({
+ url: ‘send.php’,
+ type: ‘POST’,
+ contentType: false,
+ processData: false,
+ data: fd,
+ success: function(msg){
+if(msg == ‘ok’) {
+ $(“.button”).val(“Отправлено”);
+} else {
+ $(“.button”).val(“Ошибка”);
+ setTimeout(function() {$(“.button”).val(“Отправить”);}, 3000);
+}
+ }
+ });
+ });
+});
+</script>
+<!-- phpmailer -->
 </body>
 </html>
