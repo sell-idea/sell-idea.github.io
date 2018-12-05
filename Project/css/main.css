@@ -177,7 +177,7 @@ hr{
 .review{
   padding-top: 60px;
   padding-bottom: 60px;
-  background: linear-gradient(0deg, #D2FFD2, #d5d5d5);
+    background: linear-gradient(0deg, 	#e87888,#eec48b);
 }
 .help{
   padding-top: 60px;
@@ -384,11 +384,13 @@ h1,h2,h3,h4,h5,h6{text-align: center;font-weight: 400;}
 
 
 #myFooter .footer-copyright{
-    margin-bottom: 15px;
+    
     text-align: center;
     font-size: 14px;
     color: #eef;
 }
+
+
 
 
 
@@ -441,7 +443,7 @@ box-sizing: content-box;
 } */
 .discussion
 {
-	background-color: #D2FFD2;
+background: linear-gradient(0deg, 	#e87888,#eec48b);
 }
 
 .pic
