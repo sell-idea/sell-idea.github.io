@@ -8,6 +8,7 @@
   font-size: 40px;
   font-weight: 600;
 }
+
 .navbar  {
   background-color: #033b45;
 
@@ -115,6 +116,7 @@
 p{
   /* font-family: 'Black And White Picture', sans-serif; */
   font-family: 'Lato', sans-serif;
+
 }
 .mag{
 
@@ -206,6 +208,7 @@ hr{
 
 footer{
   background-color:#033b45;
+
 }
 
 /* Contact Form */
@@ -384,14 +387,18 @@ h1,h2,h3,h4,h5,h6{text-align: center;font-weight: 400;}
 
 
 
+
 #myFooter .footer-copyright{
 
     text-align: center;
     font-size: 14px;
-    color: #eef;
+    color: white;
+
 }
 
-
+footer span{
+  color:white;
+}
 
 
 
@@ -405,6 +412,7 @@ h1,h2,h3,h4,h5,h6{text-align: center;font-weight: 400;}
   padding: 0;
   font-size: 18px;
   color:#fff;
+
 }
 #myFooter a{
     color: #eef;
@@ -422,6 +430,16 @@ h1,h2,h3,h4,h5,h6{text-align: center;font-weight: 400;}
 .social-icons-github:hover{
       color:#4B0082;
 }
+.social-icons-youtube:hover{
+      color:red;
+}
+.youtube{
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color:#D3D3D3;
+}
+
 footer h4, h1{
   color:#fff;
 }
@@ -447,7 +465,7 @@ box-sizing: content-box;
 background: linear-gradient(0deg, 	#e87888,#eec48b);
 }
 
-.pic
+ic
 {
 position:relative;
 overflow:hidden;
@@ -466,11 +484,11 @@ backface-visibility:hidden
 
 .pic-3d
 {
--webkit-perspective:500;
--moz-perspective:500;
--o-perspective:500;
--ms-perspective:500;
-perspective:500;
+-webkit-persective:500;
+-moz-persective:500;
+-o-persective:500;
+-ms-prsective:500;
+/* persective:500; */
 -webkit-transform-style:preserve-3d;
 -moz-transform-style:preserve-3d;
 -o-transform-style:preserve-3d;
