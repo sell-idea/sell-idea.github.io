@@ -465,7 +465,7 @@ box-sizing: content-box;
 background: linear-gradient(0deg, 	#e87888,#eec48b);
 }
 
-ic
+.pic
 {
 position:relative;
 overflow:hidden;
@@ -487,8 +487,8 @@ backface-visibility:hidden
 -webkit-persective:500;
 -moz-persective:500;
 -o-persective:500;
--ms-prsective:500;
-/* persective:500; */
+-ms-persective:500;
+-transform-style:persective:500;
 -webkit-transform-style:preserve-3d;
 -moz-transform-style:preserve-3d;
 -o-transform-style:preserve-3d;
